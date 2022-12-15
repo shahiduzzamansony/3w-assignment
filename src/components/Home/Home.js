@@ -6,17 +6,17 @@ import Request from "../Request/Request";
 import ReCAPTCHA from "react-google-recaptcha";
 const Home = () => {
   function onChange(value) {
-    console.log("Captcha value:", value);
+    // console.log("Captcha value:", value);
   }
   const { value } = useContext(ContextApi);
-  console.log(value);
+  //   console.log(value);
   return (
     <div className="bg-accent">
       <div className="bg-primary text-center py-3 text-white">
         <p className="mb-0">Notice here</p>
       </div>
       <Container className="py-5">
-        <h1 className="text-primary fs-1">Request testnet LINK</h1>
+        <h1 className="text-primary fs-1 fw-semibold">Request testnet LINK</h1>
         <p className="text-fonm ">
           Get testnet LINK for an account on one of the supported blockchain
           testnets so you can <br></br> create and test your own oracle and

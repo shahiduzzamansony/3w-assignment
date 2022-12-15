@@ -4,7 +4,7 @@ import { ButtonGroup, Table, ToggleButton } from "react-bootstrap";
 const Request = () => {
   const [radioValue, setRadioValue] = useState("1");
 
-  console.log(radioValue);
+  // console.log(radioValue);
   const radios = [
     { name: "ETH Transaction History", value: "1" },
     { name: "TestLink Transaction History", value: "2" },

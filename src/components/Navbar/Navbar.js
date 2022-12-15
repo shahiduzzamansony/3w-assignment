@@ -17,7 +17,7 @@ import { ContextApi } from "../ContextAPI/Context";
 
 const NavbarApp = () => {
   const { value, setValue } = useContext(ContextApi);
-  console.log(value);
+  // console.log(value);
   const icon = <IoIosContact className="fs-2"></IoIosContact>;
   const [show, setShow] = useState(false);
 
@@ -59,7 +59,7 @@ const NavbarApp = () => {
   ];
   const handleChange = (e) => {
     const option = e.target.value;
-    console.log(option);
+    // console.log(option);
     setValue(option);
   };
 
@@ -104,7 +104,9 @@ const NavbarApp = () => {
                 size="sm"
               >
                 <IoWallet className="fs-6 mb-1"></IoWallet>{" "}
-                <span className="d-none d-lg-inline">Connect Wallet</span>
+                <span className="d-none d-lg-inline fw-semibold">
+                  Connect Wallet
+                </span>
               </Button>
 
               <NavDropdown
