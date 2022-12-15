@@ -1,0 +1,10 @@
+$theme-colors: (
+    "primary": #9b1fe9,
+    "accent":#eef2fe,
+    "blue":#00f,
+    "font":#6d7380
+    );
+    
+    // Import Bootstrap and its default variables
+    @import '~bootstrap/scss/bootstrap.scss';
+    
